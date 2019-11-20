@@ -33,7 +33,7 @@
         }
         #video{
             width: 100%;
-            height: -webkit-fill-available;
+            height: 550px;
             pointer-events: none;
         }
         
@@ -69,12 +69,9 @@
     </ul>
     
 
-
-    <div class="vide">
-        <iframe class="responsive-video" id="video" src="https://www.youtube.com/embed/yZPyCY9mJ-g?autoplay=1&loop=1&mute=1&controls=0&showinfo=0" frameborder="0" allowfullscreen ></iframe>
-    </div>
-
-    <section style="margin-top: 25px;">
+    <iframe id="video" class="z-depth-5" src="https://www.youtube.com/embed/yZPyCY9mJ-g?autoplay=1&loop=1&showinfo=0&rel=0&fs=0&autohide=0&mute=1&controls=0&playlist=yZPyCY9mJ-g" frameborder="0"></iframe>
+    
+    <section style="margin-top: 55px;">
         <div class="container"  >
             <div class="row">
                 <div class="col s12 section scrollspy"  id="quienessomos" >
@@ -102,7 +99,7 @@
     </section>
     
 
-    <section class="blue-grey lighten-5">
+    <section class="blue-grey lighten-5 z-depth-2">
         <div class="container section scrollspy" id="productosServicios" >
                 <div class="row">
                         <div class="col s12">
@@ -193,7 +190,7 @@
     </section>
 
     <section class="container">
-            <h4 style="margin: 0;" class="teal-text center-align" ><strong>Nuestra Experiencia</strong></h4>
+            <h4 class="teal-text center-align" ><strong>Nuestra Experiencia</strong></h4>
             <ul class="collapsible section scrollspy" id="experiencia">
                 <li>
                     <div class="collapsible-header">
@@ -274,7 +271,7 @@
             </ul>        
     </section>
     
-    <section class="blue-grey lighten-5" >
+    <section class="blue-grey lighten-5  z-depth-2" >
             <div class="container" style="padding: 2rem 0;" >
                 <h4 style="margin: 0;" class="teal-text center-align" ><strong>Proyectos</strong></h4>
                 <ul class="collection with-header card section scrollspy" id="proyectos">
@@ -354,6 +351,7 @@
         $('.scrollspy').scrollSpy();
         $('.sidenav').sidenav();
         $('.materialboxed').materialbox();
+        $("body").click();
     });
      </script>
       
