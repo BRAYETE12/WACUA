@@ -34,9 +34,9 @@
         #video{
             width: 100%;
             height: -webkit-fill-available;
-            /*pointer-events: none;*/
+            pointer-events: none;
         }
-        .ytp-title-enable-channel-logo .ytp-title-channel{ display: none;}
+        
     </style>
 </head>
 <body>
@@ -70,32 +70,33 @@
     
 
 
-<iframe class="responsive-video" id="video" src="https://www.youtube.com/embed/yZPyCY9mJ-g?autoplay=1&loop=1&mute=1&controls=0" frameborder="0" ></iframe>
-
+    <div class="vide">
+        <iframe class="responsive-video" id="video" src="https://www.youtube.com/embed/yZPyCY9mJ-g?autoplay=1&loop=1&mute=1&controls=0&showinfo=0" frameborder="0" allowfullscreen ></iframe>
+    </div>
 
     <section style="margin-top: 25px;">
         <div class="container"  >
             <div class="row">
                 <div class="col s12 section scrollspy"  id="quienessomos" >
-                    <h4 style="margin: 0;" class="teal-text" >Quiénes somos</h4>
+                    <h4 style="margin: 0;" class="teal-text" ><strong>Quiénes somos</strong></h4>
                     <p> La FUNDACION WACUA AIPA, es una organización sin ánimo de lucro fundada el 10 de enero de 1995, que promueve las nuevas tecnologías, gestión ambiental eficiente y replicable con el fin de incrementar la productividad y la creación de valor compartido, buscando la articulación y la competitividad en el territorio. <br>
                         De esta misma forma trabajamos con las comunidades menos favorecidas en proyectos productivos para mejoramiento del nivel de vida.
                     </p> 
                 </div>
                 <div class="col s6 section scrollspy"  id="nuestropropocito" >
-                    <h4 style="margin: 0;" class="teal-text" >Nuestro Propósitos</h4>
+                    <h4 style="margin: 0;" class="teal-text" ><strong>Nuestro Propósitos</strong></h4>
                     <p> Aumentar la productividad y la competitividad territorial promoviendo el desarrollo de nuevas tecnologías y el enfoque ambiental a través del mejoramiento continuo, la transferencia de conocimientos y el liderazgo innovador. <br>
                         Satisfacer las necesidades organizacionales, mejorando sistemas y ayudando a desarrollar calidad frente a las necesidades del mundo globalizado.                                        
                     </p>
+
+                    <h4 style="margin: 0;" class="teal-text" ><strong>Gestión social</strong></h4>
+                    <p> Por nuestro carácter, La fundación está comprometida con el trabajo social en el territorio. En este sentido se viene gestionando apoyo a comunidades menos favorecidas e indígenas con el fin de promover la satisfacción de sus necesidades básicas.</p>
+
                 </div>
                 <div class="col s6" style="text-align: center;">
-                    <img src="iconos/sostenibilidad.png" style="width: 100%;" >
+                    <img src="iconos/sostenibilidad.png" class="materialboxed" style="width: 100%;" >
                 </div>
-                <div class="col s12 section scrollspy"  id="gestionsocial" >
-                    <h4 style="margin: 0;" class="teal-text" >Gestión social</h4>
-                    <p> Por nuestro carácter, La fundación está comprometida con el trabajo social en el territorio. En este sentido se viene gestionando apoyo a comunidades menos favorecidas e indígenas con el fin de promover la satisfacción de sus necesidades básicas.
-                    </p> 
-                </div>
+                
             </div>
         </div>
     </section>
@@ -119,7 +120,7 @@
                                 </div>
                             </div>
                             <div class="col s4">
-                                <div class="card card-ps red accent-2">
+                                <div class="card card-ps blue darken-2">
                                     <div class="card-image">
                                         <img src="iconos/002-engranaje.png">
                                     </div>
@@ -129,7 +130,7 @@
                                 </div>
                             </div>
                             <div class="col s4">
-                                <div class="card card-ps blue accent-2">
+                                <div class="card card-ps teal darken-2">
                                     <div class="card-image">
                                         <img src="iconos/005-reporte.png">
                                     </div>
@@ -141,7 +142,7 @@
                         </div>
                         <div class="row">
                             <div class="col s4">
-                                <div class="card card-ps deep-purple darken-2">
+                                <div class="card card-ps blue darken-2">
                                     <div class="card-image">
                                         <img src="iconos/004-ayuda.png">
                                     </div>
@@ -151,7 +152,7 @@
                                 </div>
                             </div>
                             <div class="col s4">
-                                <div class="card card-ps green darken-2">
+                                <div class="card card-ps teal darken-2">
                                     <div class="card-image">
                                         <img src="iconos/003-discutir.png">
                                     </div>
@@ -161,7 +162,7 @@
                                 </div>
                             </div>
                             <div class="col s4">
-                                <div class="card card-ps orange accent-2">
+                                <div class="card card-ps blue darken-2">
                                     <div class="card-image">
                                         <img src="iconos/006-engranaje-1.png">
                                     </div>
@@ -191,10 +192,8 @@
         </div>
     </section>
 
-        
-    <div class="container" style="margin-top: 25px;">
-
-            <h4 style="margin: 0;" class="teal-text center-align" >Nuestra Experiencia</h4>
+    <section class="container">
+            <h4 style="margin: 0;" class="teal-text center-align" ><strong>Nuestra Experiencia</strong></h4>
             <ul class="collapsible section scrollspy" id="experiencia">
                 <li>
                     <div class="collapsible-header">
@@ -272,47 +271,50 @@
                             </p>
                         </div>
                     </li>
-            </ul>
-
-            <h4 style="margin: 0;" class="teal-text center-align" >Proyectos</h4>
-            <ul class="collection with-header card section scrollspy" id="proyectos">
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Desarrollo de capacidades de las comunidades afrocolombias del municipio del piñon departamento del magdalena</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Seguridad Alimentaria para con el Consejo Comunitario de las Comunidades Negras de Aracataca, Magdalena</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Encuentro afros magdalena</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Fortalecimiento de la caficultura sostenible en el sur de la guajira, una propuesta piloto con 40 jóvenes en situación de vulnerabilidad</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Mejoramiento de infraestructuras etnoededucativas de la comunidad tarourumana del Municipio de Maicao, La Guajira</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Mejoramiento de infraestructura Deportiva para la población de Aremasahin, Manaure La Guajira</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Construcción 22 aulas escolares en los centros etnoeducativos de la gloria y aremasahin municipio de Manaure departamento de la guajira</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Construcción de 4 (cuatro) aulas tipo 25 alumnos y batería de baños en los resguardos indígenas de atachonko, gepirol, palishera, japurarao y 2 (dos) aulas tipo doble 50 alumnos y batería de baños en los resguardos indígenas de malakali y jarura en la zona rural del municipio de Uribia departamento de la guajira</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Formulación de estudios y diseños aunando esfuerzos para la recuperación del balneario el silencio como parque ecológico a fin de mejorar el potencial ecoturístico del municipio de distracción, departamento de la guaira"</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Control de la erosión costera mediante arrecifes modulares con enfoque multifuncional y diseño de protección en base a ecosistemas de las en zonas de alta vulnerabilidad del departamento de la guajira</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Inclusión de la población lgbt a través de la formación de emprendedores en el sector del turismo gastronómico en el departamento del magdalena</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Implementación de una parcela agrícola productiva con sistema de abastecimiento de agua para el fortalecimiento de la seguridad alimentaria de las víctimas en el municipio de Pedraza – departamento del magdalena</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Apoyo para la cooperación entre las partes a fin de realizar huertas rurales en las comunidades afrocolombianas de los municipios de aracataca y fundación del departamento del magdalena</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Apoyo y cooperación para la instalación y operación de celdas fotovoltaicas para las comunidades afrocolombianas en las zonas no interconectadas del departamento del magdalena</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Recuperación y ampliación de la infraestructura recreativa y deportiva del barrio Nazaret maicao, la guajira</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Recuperación y ampliación de la infraestructura recreativa y deportiva del barrio villa Daisy Maicao, la guajira</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Mantenimiento de la vía terciaria - Manaure el canal</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Centros de acopio de reciclaje en las diferentes rancherías para el proceso y manufacturación de platos y cubiertos plásticos en los municipios de Maicao, Manaure y Uribia del departamento de la guajira</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Reforestación de 20 hectáreas para la preservación en el distrito de manejo integral de bañaderos con especies nativas, en las veredas de san pablo, cavarias y comparticiones en el corregimiento de tomarrazon del municipio de riohacha departamento de la guajira</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Mejoramiento de    la calidad y cobertura de la gestión integral de residuos sólidos en el municipio de Distracción departamento de la guajira</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Implementación del sistema de información de novedades y control de seguridad y convivencia ciudadana como apoyo al marco del consejo departamental de seguridad, consejos de política social, comité de derechos humanos y comité de justicia transicional para articular acciones de corresponsabilidad a nivel de combate de la delincuencia, fortalecimiento de la fuerza pública y organismos de seguridad y justicia, gestión social para la prevención, apoyo a los procesos de atención y reparación integral a víctimas, restitución de bienes en el marco del conflicto armado y mantenimiento del orden público</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Sistema de información de novedades y control de seguridad y convivencia ciudadana del departamento de la guajira</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Abastecimiento de agua tratada para las comunidades indígenas rurales del canal y murralen en el municipio de Manaure a través de sistema de desalinización de agua de mar con energía solar en el departamento de la guajira</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Sistema de información ambiental para la corporación autónoma regional de la guajira</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Empoderamiento de las mujeres afrodescendientes de los consejos comunitarios de los municipios de Aracataca, Fundación, Zona bananera y el retén, del Departamento del Magdalena</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Seguridad vial para asumir su responsabilidad en la movilidad segura en el Municipio de Riohacha, La Guajira</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Implementación de un sistema de información de tránsito e información financiera para el departamento de la guajira</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Implementación de herramientas para la caracterización y apoyo de las victimas departamento de la guajira</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Definir los lineamientos para el mejoramiento integral del Daisy  comuna 5, como aporte al plan de ordenamiento territorial pot y el impacto ambiental en el municipio de Maicao-departamento de la guajira</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Implementación observatorio de seguridad y convivencia ciudadana en el departamento del magdalena</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Actualización del sistema de información de novedades y control de seguridad y convivencia ciudadana en el departamento de la guajira</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Abastecimiento de agua tratada a comunidades indígenas rurales a través de sistema de desalinización con energía solar para fuentes hídricas subterraneas (pozos) en el departamento de la guajira</div></li>
-                <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Desarrollo de estrategias que generen acciones para la construcción, concientización, la seguridad y convivencia de los municipios de Maicao y Uribia</div></li>
-            </ul>
-
-    </div>
-
+            </ul>        
+    </section>
+    
+    <section class="blue-grey lighten-5" >
+            <div class="container" style="padding: 2rem 0;" >
+                <h4 style="margin: 0;" class="teal-text center-align" ><strong>Proyectos</strong></h4>
+                <ul class="collection with-header card section scrollspy" id="proyectos">
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Desarrollo de capacidades de las comunidades afrocolombias del municipio del piñon departamento del magdalena</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Seguridad Alimentaria para con el Consejo Comunitario de las Comunidades Negras de Aracataca, Magdalena</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Encuentro afros magdalena</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Fortalecimiento de la caficultura sostenible en el sur de la guajira, una propuesta piloto con 40 jóvenes en situación de vulnerabilidad</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Mejoramiento de infraestructuras etnoededucativas de la comunidad tarourumana del Municipio de Maicao, La Guajira</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Mejoramiento de infraestructura Deportiva para la población de Aremasahin, Manaure La Guajira</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Construcción 22 aulas escolares en los centros etnoeducativos de la gloria y aremasahin municipio de Manaure departamento de la guajira</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Construcción de 4 (cuatro) aulas tipo 25 alumnos y batería de baños en los resguardos indígenas de atachonko, gepirol, palishera, japurarao y 2 (dos) aulas tipo doble 50 alumnos y batería de baños en los resguardos indígenas de malakali y jarura en la zona rural del municipio de Uribia departamento de la guajira</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Formulación de estudios y diseños aunando esfuerzos para la recuperación del balneario el silencio como parque ecológico a fin de mejorar el potencial ecoturístico del municipio de distracción, departamento de la guaira"</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Control de la erosión costera mediante arrecifes modulares con enfoque multifuncional y diseño de protección en base a ecosistemas de las en zonas de alta vulnerabilidad del departamento de la guajira</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Inclusión de la población lgbt a través de la formación de emprendedores en el sector del turismo gastronómico en el departamento del magdalena</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Implementación de una parcela agrícola productiva con sistema de abastecimiento de agua para el fortalecimiento de la seguridad alimentaria de las víctimas en el municipio de Pedraza – departamento del magdalena</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Apoyo para la cooperación entre las partes a fin de realizar huertas rurales en las comunidades afrocolombianas de los municipios de aracataca y fundación del departamento del magdalena</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Apoyo y cooperación para la instalación y operación de celdas fotovoltaicas para las comunidades afrocolombianas en las zonas no interconectadas del departamento del magdalena</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Recuperación y ampliación de la infraestructura recreativa y deportiva del barrio Nazaret maicao, la guajira</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Recuperación y ampliación de la infraestructura recreativa y deportiva del barrio villa Daisy Maicao, la guajira</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Mantenimiento de la vía terciaria - Manaure el canal</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Centros de acopio de reciclaje en las diferentes rancherías para el proceso y manufacturación de platos y cubiertos plásticos en los municipios de Maicao, Manaure y Uribia del departamento de la guajira</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Reforestación de 20 hectáreas para la preservación en el distrito de manejo integral de bañaderos con especies nativas, en las veredas de san pablo, cavarias y comparticiones en el corregimiento de tomarrazon del municipio de riohacha departamento de la guajira</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Mejoramiento de    la calidad y cobertura de la gestión integral de residuos sólidos en el municipio de Distracción departamento de la guajira</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Implementación del sistema de información de novedades y control de seguridad y convivencia ciudadana como apoyo al marco del consejo departamental de seguridad, consejos de política social, comité de derechos humanos y comité de justicia transicional para articular acciones de corresponsabilidad a nivel de combate de la delincuencia, fortalecimiento de la fuerza pública y organismos de seguridad y justicia, gestión social para la prevención, apoyo a los procesos de atención y reparación integral a víctimas, restitución de bienes en el marco del conflicto armado y mantenimiento del orden público</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Sistema de información de novedades y control de seguridad y convivencia ciudadana del departamento de la guajira</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Abastecimiento de agua tratada para las comunidades indígenas rurales del canal y murralen en el municipio de Manaure a través de sistema de desalinización de agua de mar con energía solar en el departamento de la guajira</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Sistema de información ambiental para la corporación autónoma regional de la guajira</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Empoderamiento de las mujeres afrodescendientes de los consejos comunitarios de los municipios de Aracataca, Fundación, Zona bananera y el retén, del Departamento del Magdalena</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Seguridad vial para asumir su responsabilidad en la movilidad segura en el Municipio de Riohacha, La Guajira</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Implementación de un sistema de información de tránsito e información financiera para el departamento de la guajira</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Implementación de herramientas para la caracterización y apoyo de las victimas departamento de la guajira</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Definir los lineamientos para el mejoramiento integral del Daisy  comuna 5, como aporte al plan de ordenamiento territorial pot y el impacto ambiental en el municipio de Maicao-departamento de la guajira</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Implementación observatorio de seguridad y convivencia ciudadana en el departamento del magdalena</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Actualización del sistema de información de novedades y control de seguridad y convivencia ciudadana en el departamento de la guajira</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Abastecimiento de agua tratada a comunidades indígenas rurales a través de sistema de desalinización con energía solar para fuentes hídricas subterraneas (pozos) en el departamento de la guajira</div></li>
+                    <li class="collection-item"><div><i class="material-icons"> bookmarks </i>Desarrollo de estrategias que generen acciones para la construcción, concientización, la seguridad y convivencia de los municipios de Maicao y Uribia</div></li>
+                </ul>
+            </div>
+    </section>
+    
 
 
     <footer class="page-footer blue darken-1">
@@ -351,6 +353,7 @@
         $('.collapsible').collapsible();
         $('.scrollspy').scrollSpy();
         $('.sidenav').sidenav();
+        $('.materialboxed').materialbox();
     });
      </script>
       
